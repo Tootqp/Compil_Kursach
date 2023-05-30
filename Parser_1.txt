@@ -1,0 +1,6 @@
+
+Parser:
+---------------
+AST:
+
+[[[[[[[None [INT : int  (VAR : Vi,VAR : Va,VAR : Vb,VAR : Vc)]] [VAR : Vi EQUAL INT : 10]] [VAR : Va EQUAL INT : 99]] [VAR : Vb EQUAL INT : 8799]] [print Результат работы цикла:]] [WHILE [ VAR : Vi COMPARISON : < INT : 100 ] THEN [[None [print VAR : Vi]] [VAR : Vi EQUAL [VAR : Vi ARTH : + INT : 10]]]]] [IF [ VAR : Va COMPARISON : > INT : 100 ] THEN [[[None [VAR : Vc EQUAL [VAR : Va ARTH : * VAR : Vb]]] [print Произведение а*в будет равно:]] [print VAR : Vc]] ELSE [[[None [VAR : Vc EQUAL [[VAR : Vb ARTH : * [VAR : Va ARTH : * VAR : Va]] ARTH : * INT : 2]]] [print Произведение b*(a*a)*2 будет равно:]] [print VAR : Vc]]]]
